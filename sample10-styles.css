@@ -1,0 +1,222 @@
+/* .[name] = Class */
+/* #[name] = ID */
+
+/* HEADER */
+#hdr {
+    background-color: #ffffff;
+}
+
+#hdr-info {
+    text-align: left;
+    color: #000000;
+    font-size: 15px;
+    padding-top: 7px;
+}
+
+#logo {
+    /* Source: https://express.adobe.com/express-apps/logo-maker/results */
+    width: 60px;
+    margin-left: 20px;
+    margin-right: 25px;
+}
+
+.navbar {
+    font-family: cooperhewitt-mediumfont;
+    color: #C95C65;
+    overflow: auto;
+}
+
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 13px;
+    color: #C95C65;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: cooperhewitt-mediumfont;
+    margin-right: 25px;
+}
+
+.navbar a:hover {
+    background-color: #C95C65;
+    color: #ffffff;
+}
+
+/* FONT */
+@font-face {
+    font-family: cooperhewitt-heavyfont;
+    src: url(fonts/CooperHewitt-Heavy.otf);
+}
+
+@font-face {
+    font-family: cooperhewitt-mediumfont;
+    src: url(fonts/CooperHewitt-Medium.otf);
+}
+
+@font-face {
+    font-family: cooperhewitt-thinfont;
+    src: url(fonts/CooperHewitt-Thin.otf);
+}
+
+.font-primary {
+    color: #000000;
+    text-align: right;
+    font-family: cooperhewitt-heavyfont;
+    font-size: 70px;
+}
+
+.font-secondary {
+    color: #000000;
+    text-align: right;
+    font-family: cooperhewitt-mediumfont;
+    font-size: 35px;
+}
+
+.font-tertiary {
+    color: #000000;
+    text-align: right;
+    font-family: cooperhewitt-thinfont;
+    font-size: 20px;
+}
+
+.second-font {
+    color: #000000;
+    text-align: left;
+    font-family: cooperhewitt-mediumfont;
+    font-size: 30px;
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+.third-font-center {
+    color: #000000;
+    text-align: center;
+    font-family: cooperhewitt-mediumfont;
+    font-size: 30px;
+    padding-top: 150px;
+    padding-bottom: 25px;
+}
+
+.font-modal-header {
+    color: #000000;
+    text-align: left;
+    font-family: cooperhewitt-heavyfont;
+    font-size: 35px;
+}
+
+.font-modal-body {
+    color: #000000;
+    text-align: left;
+    font-family: cooperhewitt-mediumfont;
+    font-size: 20px;
+}
+
+/* BODY */
+#main-ctnt-img {
+    background-image: url("photos/bg-sample10-1.gif");
+    /* Source: https://www.behance.net/gallery/162327851/3D-illustrations-animations */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 90px;
+    padding-bottom: 700px;
+}
+
+#second-ctnt-img {
+    background-image: url("photos/bg-sample10-2.gif");
+    /* Source: https://www.artstation.com/artwork/4X4Oe4 */
+    background-repeat: no-repeat;
+    background-size: 150%;
+    padding-top: 90px;
+    padding-bottom: 500px;
+}
+
+#first-ctnt-info {
+    background-color: #DEDCDE;
+    text-align: right;
+}
+
+#second-ctnt-info {
+    background-color: #FFFFFF;
+    text-align: left;
+}
+
+#third-ctnt-info {
+    background-color: #DEDCDE;
+    text-align: left;
+}
+
+/* MODAL */
+input[type="radio"] {
+    margin-left: 10px;
+    margin-right: 2px;
+}
+
+::placeholder {
+    color: #000000;
+    text-align: left;
+    font-family: cooperhewitt-thinfont;
+    font-size: 18px;
+}
+
+.modal-content {
+    background: #FFFFFF;
+}
+
+#modal-hdr {
+    background-color: #DEDCDE;
+}
+
+#modal-ftr {
+    background-color: #DEDCDE;
+}
+
+
+/* SPACING */
+.padding-top {
+    padding-top: 100px;
+}
+
+.padding-bottom {
+    padding-bottom: 100px;
+}
+
+.padding-right {
+    padding-right: 900px;
+}
+
+.margin-bottom {
+    margin-bottom: 125px;
+}
+
+.margin-right {
+    margin-right: 25px;
+}
+
+/* BUTTON */
+.button-red {
+    background-color: #C95C65;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 25px;
+    font-family: cooperhewitt-mediumfont;
+}
+
+.button-red-outline {
+    background-color: #ffffff;
+    border: 2px solid #C95C65;
+    border-radius: 15px;
+    color: #C95C65;
+    font-size: 25px;
+}
+
+/* FOOTER */
+#ftr {
+    background-color: #ffffff;
+}
+
+#ftr-info {
+    text-align: center;
+    color: #000000;
+    font-size: 15px;
+    padding-top: 7px;
+}
